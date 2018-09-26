@@ -5,13 +5,14 @@ import { SplashScreen } from '@ionic-native/splash-screen/ngx';
 import { StatusBar } from '@ionic-native/status-bar/ngx';
 import * as firebase from 'firebase';
 
+//Fill the blanks with Data supplied by Firebase
 var config = {
-  apiKey: "AIzaSyAyDROFpRrrjXnTTK40IojzLhEmbAgEjBI",
-  authDomain: "bulletinboard-c8748.firebaseapp.com",
-  databaseURL: "https://bulletinboard-c8748.firebaseio.com",
-  projectId: "bulletinboard-c8748",
-  storageBucket: "bulletinboard-c8748.appspot.com",
-  messagingSenderId: "673198240037"
+  apiKey: "", //"API key"
+  authDomain: "",// "Domain",
+  databaseURL: "", // URL
+  projectId: "", // Project ID
+  storageBucket: "", // storage
+  messagingSenderId: "", //messaging ID
 };
 
 @Component({
